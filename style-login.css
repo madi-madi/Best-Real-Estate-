@@ -1,0 +1,58 @@
+
+body.login {
+
+	background: url('assets/images/banner-bg2.jpg');
+        background-repeat: no-repeat;
+    background-size: cover;
+       background-attachment: fixed;
+    background-position: center;
+    height: unset;
+min-height: auto;
+clear: both;
+
+
+
+
+}
+
+body{ margin-bottom:0;  padding: 0; clear: both;}
+
+.wp-core-ui .button-primary {
+    background: #ffda00;
+    border-color: #ffda00 #ffda00 #ffda00;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #ffda00;
+    color: #0a0a0a;
+    text-decoration: none;
+    /* text-shadow: 0 -1px 1px #ffda00, 1px 0 1px #ffda00, 0 1px 1px #006799, -1px 0 1px #006799; */
+    text-shadow: 0px 1px 0px #575454;
+}
+
+
+.login #login_error, .login .message {
+    border-left: 4px solid #ffda00;
+    }
+
+
+    .login form {
+    margin-top: 20px;
+    margin-left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+
+.login #backtoblog a, .login #nav a {
+   
+    color: #fff;
+}
+
+
+.login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover {
+    color: #ffda00;
+    font-weight: blod;
+    font-weight: bold;
+}
