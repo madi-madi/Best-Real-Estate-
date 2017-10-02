@@ -52,7 +52,7 @@ function my_phpmailer_example( $phpmailer ) {
     $phpmailer->SMTPAuth = true; // Force it to use Username and Password to authenticate
     $phpmailer->Port = 587;
     $phpmailer->Username = 'shoppingt277@gmail.com';
-    $phpmailer->Password = 'shop123456';
+    $phpmailer->Password = 'pass';
 
     // Additional settings…
     $phpmailer->SMTPSecure = "tls"; // Choose SSL or TLS, if necessary for your server
